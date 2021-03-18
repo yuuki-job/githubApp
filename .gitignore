@@ -39,7 +39,6 @@ githubApp/Pods/Alamofire/Source/URLEncodedFormEncoder.swift
 githubApp/Pods/Alamofire/Source/URLRequest+Alamofire.swift
 githubApp/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
 githubApp/Pods/Alamofire/Source/Validation.swift
-githubApp/Pods/Pods.xcodeproj/project.pbxproj
 githubApp/Pods/Pods.xcodeproj/xcuserdata/tokunagaisamunozomi.xcuserdatad/xcschemes/Alamofire.xcscheme
 githubApp/Pods/Pods.xcodeproj/xcuserdata/tokunagaisamunozomi.xcuserdatad/xcschemes/Pods-githubApp.xcscheme
 githubApp/Pods/Pods.xcodeproj/xcuserdata/tokunagaisamunozomi.xcuserdatad/xcschemes/SwiftyJSON.xcscheme
