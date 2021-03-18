@@ -1,0 +1,76 @@
+githubApp/githubApp.xcworkspace/contents.xcworkspacedata
+githubApp/githubApp.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+githubApp/githubApp.xcworkspace/xcuserdata/tokunagaisamunozomi.xcuserdatad/UserInterfaceState.xcuserstate
+githubApp/Pods/Manifest.lock
+githubApp/Pods/Alamofire/LICENSE
+githubApp/Pods/Alamofire/README.md
+githubApp/Pods/Alamofire/Source/AFError.swift
+githubApp/Pods/Alamofire/Source/Alamofire.swift
+githubApp/Pods/Alamofire/Source/AlamofireExtended.swift
+githubApp/Pods/Alamofire/Source/AuthenticationInterceptor.swift
+githubApp/Pods/Alamofire/Source/CachedResponseHandler.swift
+githubApp/Pods/Alamofire/Source/Combine.swift
+githubApp/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+githubApp/Pods/Alamofire/Source/EventMonitor.swift
+githubApp/Pods/Alamofire/Source/HTTPHeaders.swift
+githubApp/Pods/Alamofire/Source/HTTPMethod.swift
+githubApp/Pods/Alamofire/Source/MultipartFormData.swift
+githubApp/Pods/Alamofire/Source/MultipartUpload.swift
+githubApp/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+githubApp/Pods/Alamofire/Source/Notifications.swift
+githubApp/Pods/Alamofire/Source/OperationQueue+Alamofire.swift
+githubApp/Pods/Alamofire/Source/ParameterEncoder.swift
+githubApp/Pods/Alamofire/Source/ParameterEncoding.swift
+githubApp/Pods/Alamofire/Source/Protected.swift
+githubApp/Pods/Alamofire/Source/RedirectHandler.swift
+githubApp/Pods/Alamofire/Source/Request.swift
+githubApp/Pods/Alamofire/Source/RequestInterceptor.swift
+githubApp/Pods/Alamofire/Source/RequestTaskMap.swift
+githubApp/Pods/Alamofire/Source/Response.swift
+githubApp/Pods/Alamofire/Source/ResponseSerialization.swift
+githubApp/Pods/Alamofire/Source/Result+Alamofire.swift
+githubApp/Pods/Alamofire/Source/RetryPolicy.swift
+githubApp/Pods/Alamofire/Source/ServerTrustEvaluation.swift
+githubApp/Pods/Alamofire/Source/Session.swift
+githubApp/Pods/Alamofire/Source/SessionDelegate.swift
+githubApp/Pods/Alamofire/Source/StringEncoding+Alamofire.swift
+githubApp/Pods/Alamofire/Source/URLConvertible+URLRequestConvertible.swift
+githubApp/Pods/Alamofire/Source/URLEncodedFormEncoder.swift
+githubApp/Pods/Alamofire/Source/URLRequest+Alamofire.swift
+githubApp/Pods/Alamofire/Source/URLSessionConfiguration+Alamofire.swift
+githubApp/Pods/Alamofire/Source/Validation.swift
+githubApp/Pods/Pods.xcodeproj/project.pbxproj
+githubApp/Pods/Pods.xcodeproj/xcuserdata/tokunagaisamunozomi.xcuserdatad/xcschemes/Alamofire.xcscheme
+githubApp/Pods/Pods.xcodeproj/xcuserdata/tokunagaisamunozomi.xcuserdatad/xcschemes/Pods-githubApp.xcscheme
+githubApp/Pods/Pods.xcodeproj/xcuserdata/tokunagaisamunozomi.xcuserdatad/xcschemes/SwiftyJSON.xcscheme
+githubApp/Pods/Pods.xcodeproj/xcuserdata/tokunagaisamunozomi.xcuserdatad/xcschemes/xcschememanagement.plist
+githubApp/Pods/SwiftyJSON/LICENSE
+githubApp/Pods/SwiftyJSON/README.md
+githubApp/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift
+githubApp/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+githubApp/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+githubApp/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+githubApp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+githubApp/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+githubApp/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+githubApp/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-acknowledgements.markdown
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-acknowledgements.plist
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-dummy.m
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks-Debug-input-files.xcfilelist
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks-Debug-output-files.xcfilelist
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks-Release-input-files.xcfilelist
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks-Release-output-files.xcfilelist
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks.sh
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-Info.plist
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-umbrella.h
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp.debug.xcconfig
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp.modulemap
+githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp.release.xcconfig
+githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m
+githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist
+githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch
+githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h
+githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.debug.xcconfig
+githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap
+githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.release.xcconfig
