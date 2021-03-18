@@ -51,26 +51,22 @@ githubApp/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
 githubApp/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
 githubApp/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
 githubApp/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
-githubApp/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+
 githubApp/Pods/Target Support Files/Alamofire/Alamofire.modulemap
-githubApp/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+
 githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-acknowledgements.markdown
 githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-acknowledgements.plist
 githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-dummy.m
-githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks-Debug-input-files.xcfilelist
-githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks-Debug-output-files.xcfilelist
-githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks-Release-input-files.xcfilelist
-githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks-Release-output-files.xcfilelist
 githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-frameworks.sh
 githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-Info.plist
 githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp-umbrella.h
-githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp.debug.xcconfig
+
 githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp.modulemap
-githubApp/Pods/Target Support Files/Pods-githubApp/Pods-githubApp.release.xcconfig
+
 githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m
 githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist
 githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch
 githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h
-githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.debug.xcconfig
+
 githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap
-githubApp/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.release.xcconfig
+
