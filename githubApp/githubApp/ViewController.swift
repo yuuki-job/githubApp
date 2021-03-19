@@ -12,6 +12,7 @@ import SwiftyJSON
 class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    private var githubDatas = GitHubData.jsonData
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,12 +34,18 @@ class ViewController: UIViewController {
             
             switch response.result{
             
-            case .success(_):
-                let json = try? JSON(data: response.data!)
-                print(json)
-        
-            case .failure(_):
-                print("error")
+            case .success(let value):
+                let json = JSON(value)
+                
+                for data in json.arrayValue {
+                    let jsonData = GitHubData(json: data)
+                    
+                    self.githubDatas.append(jsonData)
+                    self.tableView.reloadData()
+                }
+                
+            case .failure(let error):
+                print("error \(error)")
             }
         }
     }
@@ -46,12 +53,12 @@ class ViewController: UIViewController {
 
 extension ViewController:UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return githubDatas.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        
+        cell.textLabel?.text = githubDatas[indexPath.row].name
         return cell
     }
 }

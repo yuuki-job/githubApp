@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		526DB4652603871C00078D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526DB4632603871C00078D0D /* Main.storyboard */; };
 		526DB4672603871F00078D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526DB4662603871F00078D0D /* Assets.xcassets */; };
 		526DB46A2603871F00078D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526DB4682603871F00078D0D /* LaunchScreen.storyboard */; };
+		526DB48326046AD600078D0D /* GitHubData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DB48226046AD600078D0D /* GitHubData.swift */; };
 		66DC414AD00C75EDFAF5E609 /* Pods_githubApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3F01A5DF59526506C45EDE /* Pods_githubApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		526DB4662603871F00078D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526DB4692603871F00078D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526DB46B2603871F00078D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526DB48226046AD600078D0D /* GitHubData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubData.swift; sourceTree = "<group>"; };
 		56930C5C583F2300D18312EF /* Pods-githubApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubApp.release.xcconfig"; path = "Target Support Files/Pods-githubApp/Pods-githubApp.release.xcconfig"; sourceTree = "<group>"; };
 		C1CE8BDF3B19FD40B3ED1A52 /* Pods-githubApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubApp.debug.xcconfig"; path = "Target Support Files/Pods-githubApp/Pods-githubApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				C1CE8BDF3B19FD40B3ED1A52 /* Pods-githubApp.debug.xcconfig */,
 				56930C5C583F2300D18312EF /* Pods-githubApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +82,9 @@
 		526DB45C2603871C00078D0D /* githubApp */ = {
 			isa = PBXGroup;
 			children = (
+				526DB47F26046A4400078D0D /* Model */,
+				526DB48026046A5500078D0D /* View */,
+				526DB48126046A6E00078D0D /* Controllers */,
 				526DB45D2603871C00078D0D /* AppDelegate.swift */,
 				526DB45F2603871C00078D0D /* SceneDelegate.swift */,
 				526DB4612603871C00078D0D /* ViewController.swift */,
@@ -90,6 +94,28 @@
 				526DB46B2603871F00078D0D /* Info.plist */,
 			);
 			path = githubApp;
+			sourceTree = "<group>";
+		};
+		526DB47F26046A4400078D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				526DB48226046AD600078D0D /* GitHubData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		526DB48026046A5500078D0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		526DB48126046A6E00078D0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526DB48326046AD600078D0D /* GitHubData.swift in Sources */,
 				526DB4622603871C00078D0D /* ViewController.swift in Sources */,
 				526DB45E2603871C00078D0D /* AppDelegate.swift in Sources */,
 				526DB4602603871C00078D0D /* SceneDelegate.swift in Sources */,
