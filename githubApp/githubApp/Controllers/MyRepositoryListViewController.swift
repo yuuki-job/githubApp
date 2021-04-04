@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ViewController: UIViewController {
+class MyRepositoryListViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     private var githubDatas = GitHubData.jsonData
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController:UITableViewDelegate,UITableViewDataSource {
+extension MyRepositoryListViewController:UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return githubDatas.count
     }

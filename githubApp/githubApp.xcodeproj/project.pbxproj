@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520553D12619B88800E1B3E8 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520553D02619B88800E1B3E8 /* Api.swift */; };
 		526DB45E2603871C00078D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DB45D2603871C00078D0D /* AppDelegate.swift */; };
 		526DB4602603871C00078D0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DB45F2603871C00078D0D /* SceneDelegate.swift */; };
-		526DB4622603871C00078D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DB4612603871C00078D0D /* ViewController.swift */; };
+		526DB4622603871C00078D0D /* MyRepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526DB4612603871C00078D0D /* MyRepositoryListViewController.swift */; };
 		526DB4652603871C00078D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526DB4632603871C00078D0D /* Main.storyboard */; };
 		526DB4672603871F00078D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526DB4662603871F00078D0D /* Assets.xcassets */; };
 		526DB46A2603871F00078D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526DB4682603871F00078D0D /* LaunchScreen.storyboard */; };
@@ -19,10 +20,11 @@
 
 /* Begin PBXFileReference section */
 		4F3F01A5DF59526506C45EDE /* Pods_githubApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_githubApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		520553D02619B88800E1B3E8 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		526DB45A2603871C00078D0D /* githubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526DB45D2603871C00078D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		526DB45F2603871C00078D0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		526DB4612603871C00078D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		526DB4612603871C00078D0D /* MyRepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyRepositoryListViewController.swift; path = ../MyRepositoryListViewController.swift; sourceTree = "<group>"; };
 		526DB4642603871C00078D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		526DB4662603871F00078D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526DB4692603871F00078D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		520553CF2619B86600E1B3E8 /* ApiRequest */ = {
+			isa = PBXGroup;
+			children = (
+				520553D02619B88800E1B3E8 /* Api.swift */,
+			);
+			path = ApiRequest;
+			sourceTree = "<group>";
+		};
+		520553D42619BA0000E1B3E8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				526DB4632603871C00078D0D /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		526DB4512603871C00078D0D = {
 			isa = PBXGroup;
 			children = (
@@ -85,10 +103,9 @@
 				526DB47F26046A4400078D0D /* Model */,
 				526DB48026046A5500078D0D /* View */,
 				526DB48126046A6E00078D0D /* Controllers */,
+				520553CF2619B86600E1B3E8 /* ApiRequest */,
 				526DB45D2603871C00078D0D /* AppDelegate.swift */,
 				526DB45F2603871C00078D0D /* SceneDelegate.swift */,
-				526DB4612603871C00078D0D /* ViewController.swift */,
-				526DB4632603871C00078D0D /* Main.storyboard */,
 				526DB4662603871F00078D0D /* Assets.xcassets */,
 				526DB4682603871F00078D0D /* LaunchScreen.storyboard */,
 				526DB46B2603871F00078D0D /* Info.plist */,
@@ -107,6 +124,7 @@
 		526DB48026046A5500078D0D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				520553D42619BA0000E1B3E8 /* Storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,6 +132,7 @@
 		526DB48126046A6E00078D0D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				526DB4612603871C00078D0D /* MyRepositoryListViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -233,8 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				526DB48326046AD600078D0D /* GitHubData.swift in Sources */,
-				526DB4622603871C00078D0D /* ViewController.swift in Sources */,
+				526DB4622603871C00078D0D /* MyRepositoryListViewController.swift in Sources */,
 				526DB45E2603871C00078D0D /* AppDelegate.swift in Sources */,
+				520553D12619B88800E1B3E8 /* Api.swift in Sources */,
 				526DB4602603871C00078D0D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

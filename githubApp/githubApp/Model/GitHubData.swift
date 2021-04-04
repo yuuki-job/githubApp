@@ -6,15 +6,15 @@
 //
 
 import Foundation
+import Alamofire
 import SwiftyJSON
+
 class GitHubData {
-    
-    static var jsonData:[GitHubData] = []
+    static var jsonData :[GitHubData] = []
     
     var name:String
     
     init(json:JSON) {
         self.name = json["name"].stringValue
-        print(name)
     }
 }
